@@ -1,4 +1,4 @@
-# Pops Backend Developer Challenge
+# Omie - Pops Backend Developer Challenge
 
 Este repositório contém as soluções propostas para o desafio técnico de Backend. O foco das implementações foi garantir performance, escalabilidade e manutenibilidade, seguindo boas práticas de engenharia de software.
 
@@ -31,23 +31,28 @@ Este repositório contém as soluções propostas para o desafio técnico de Bac
 Para validar as soluções localmente, certifique-se de ter **Python 3** e **SQLite3** instalados em seu ambiente.
 
 ### Executando a Solução 1
+
 O arquivo SQL contém a criação da tabela, inserção de dados de exemplo e a consulta recursiva. Utilizamos o modo `:memory:` do SQLite para rodar o script sem criar arquivos físicos.
 
 No terminal, execute:
 ```bash
 sqlite3 :memory: < solution_1_hierarchy.sql
+```
 
 ### Executando a Solução 2
 Este script simula o servidor API e o Worker rodando em threads paralelas, exibindo o fluxo de logs no terminal para contornar o timeout.
+
 No terminal, execute:
 ```bash
 python solution_2_async_api.py
+```
 
 ### Executando a Solução 3
 Este script roda uma bateria de testes automática (função main), simulando a chegada de requisições de diferentes tipos (Férias, Carro, Viagem) para o Centro de Serviços.
+
 No terminal, execute:
 ```bash
 python solution_3_csc_design.py
+```
 
----
 **Autor:** [Gislane Francisco Nunes]
