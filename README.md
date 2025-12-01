@@ -9,8 +9,6 @@ Este repositório contém as soluções propostas para o desafio técnico de Bac
 * **Desafio:** Buscar todos os departamentos subordinados (diretos e indiretos) dado um ID, usando apenas SQL.
 * **Abordagem:** Utilização de **CTE Recursiva (Common Table Expression)**. Esta é a forma mais performática e padrão (ANSI SQL) para lidar com estruturas de árvore/grafo em bancos relacionais, evitando múltiplos JOINs ou processamento na aplicação.
 
-P
-
 ### 2. API Timeout & Assincronismo
 * **Arquivo:** `solution_2_async_api.py`
 * **Desafio:** Lidar com um WAF que limita requisições a 30s, quando uma operação leva 35s+.
