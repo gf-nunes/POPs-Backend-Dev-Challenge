@@ -1,4 +1,4 @@
-# Omie - Pops Backend Developer Challenge
+# Pops Backend Developer Challenge
 
 Este repositório contém as soluções propostas para o desafio técnico de Backend. O foco das implementações foi garantir performance, escalabilidade e manutenibilidade, seguindo boas práticas de engenharia de software.
 
